@@ -1,0 +1,25 @@
+EXTRACT_BIT MACRO SRC, DST, OFFSET
+	mov eax, SRC
+	shr eax, OFFSET
+	and eax, 1
+	mov DST, al
+ENDM
+
+PRINT MACRO NUMBER, BASE
+	mov eax, NUMBER
+	mov cx, BASE
+	mov bx, 0
+	call PRINTER
+ENDM
+
+PRINT_ARR_MAC MACRO ARR, LEN
+    mov si, offset ARR
+    mov cx, LEN
+    call print_arr
+ENDM
+
+PRINT_STRING MACRO STR
+    mov ah, 9
+    lea dx, STR
+    int 21h
+ENDM

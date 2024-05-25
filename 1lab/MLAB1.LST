@@ -1,4 +1,4 @@
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 1
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 1
 mlab1.asm
 
 
@@ -60,7 +60,7 @@ mlab1.asm
 1    55						 CALL  PUTSS
 1    56						 ENDM
 1    57
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 2
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 2
 mlab1.asm
 
 
@@ -122,7 +122,7 @@ mlab1.asm
     112	    008C  93 8B	9C 9F 8D 8E 82+	 ULSTU	 DB	 "ìãúüçéÇëäàâ ÉéëìÑÄêëíÇÖççõâ íÖïçàóÖëäàâ ìçàÇÖêëàíÖí",0
     113		  91 8A	88 89 20 83 8E+
     114		  91 93	84 80 90 91 92+
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 3
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 3
 mlab1.asm
 
 
@@ -184,7 +184,7 @@ mlab1.asm
     169	    0233  5A 20	E0 A0 A2 A5 AD+	 LAB1_MSG_Z DB "Z ‡†¢•≠:", 0
     170		  3A 00
     171	    023C  14*(00)		 X_ DB 20 dup(0)
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 4
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 4
 mlab1.asm
 
 
@@ -246,7 +246,7 @@ mlab1.asm
 1   226	    0054  E8 0000e			 CALL  SLEN
 1   227	    0057  B9 0050			 MOV   CX, 80
 1   228	    005A  2B C8				 SUB   CX, AX
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 5
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 5
 mlab1.asm
 
 
@@ -308,7 +308,7 @@ mlab1.asm
 2   283	    00DE  E8 0000e			 CALL  PUTSS
     284						 PUTL	 EMPTYS
 1   285	    00E1  BE 0177r			 LEA   SI,   EMPTYS
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 6
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 6
 mlab1.asm
 
 
@@ -370,7 +370,7 @@ mlab1.asm
 1   340	    0160  D1 F9				 SAR   CX,  1
 1   341	    0162  74 09	90 90			 JZ    ??000B
 1   342	    0166  B0 20			 ??000A: MOV   AL, ' '
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 7
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 7
 mlab1.asm
 
 
@@ -432,7 +432,7 @@ mlab1.asm
     397	    01D8  E9 FE4C			 JMP	 @@L
     398	    01DB  3C 2B			 CMINUS: CMP	 AL,	 '+'	; „™Æ‡†Á®¢†‚Ï ß†§•‡¶™„?
     399	    01DD  75 12	90 90			 JNE	 LAB1_CFUNC
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 8
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 8
 mlab1.asm
 
 
@@ -494,7 +494,7 @@ mlab1.asm
 1   454	    0257  E8 0000e			 CALL  PUTSS
     455
     456	    025A  66| B9 00000014		 MOV ECX, 20
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 9
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 9
 mlab1.asm
 
 
@@ -556,7 +556,7 @@ mlab1.asm
     511	    02E2  67| 8A 46 02			 MOV AL, [ESI+2] ; x2
     512	    02E6  67| 8A 5E 04			 MOV BL, [ESI+4] ; x4
     513	    02EA  22 C3				 AND AL, BL		 ; x2x4
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 10
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 10
 mlab1.asm
 
 
@@ -618,7 +618,7 @@ mlab1.asm
 1   568	    0363  33 D2				 XOR   DX,   DX
 1   569	    0365  33 C0				 XOR   AX,   AX
 1   570	    0367  E8 0000e			 CALL  PUTSS
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 11
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 11
 mlab1.asm
 
 
@@ -680,7 +680,7 @@ mlab1.asm
     625	    03E4  66| A1 0258r			 MOV EAX, Z
     626	    03E8  66| 0F BA E0 0B		 BT EAX, 11		 ; Ø‡Æ¢•‡™† 11-£Æ °®‚†
     627	    03ED  72 0B	90 90			 JC LAB1_Z_FIRST_NZ
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 12
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 12
 mlab1.asm
 
 
@@ -742,7 +742,7 @@ mlab1.asm
     682	    0464  E8 0000e		     CALL PUTC
     683	    0467  EB 06	90		     JMP CHECK_EXIT
     684
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 13
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 13
 mlab1.asm
 
 
@@ -777,7 +777,7 @@ mlab1.asm
     712						 EXTRN	 SLEN:	 NEAR
     713						 EXTRN	 UTOA10: NEAR
     714						 END	 BEGIN
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 14
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 14
 Symbol Table
 
 
@@ -797,9 +797,9 @@ Symbol Name			  Type	 Value
 ??0009				  Near	 _TEXT:0139
 ??000A				  Near	 _TEXT:0166
 ??000B				  Near	 _TEXT:016D
-??DATE				  Text	 "05/12/24"
+??DATE				  Text	 "05/25/24"
 ??FILENAME			  Text	 "mlab1	  "
-??TIME				  Text	 "16:24:46"
+??TIME				  Text	 "12:44:44"
 ??VERSION			  Number 0314
 @32BIT				  Text	 0
 @@E				  Near	 _TEXT:048B
@@ -839,7 +839,7 @@ FUPUTC				  Number 0002
 GETCH				  Near	 _TEXT:---- Extern
 GETS				  Near	 _TEXT:---- Extern
 LAB1_CFUNC			  Near	 _TEXT:01F1
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 15
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 15
 Symbol Table
 
 
@@ -901,7 +901,7 @@ DURAT
 EXIT
 FIXTIME
 PUTL
-Turbo Assembler	 Version 3.2	    05/12/24 16:24:47	    Page 16
+Turbo Assembler	 Version 3.2	    05/25/24 12:44:44	    Page 16
 Symbol Table
 
 
